@@ -1,0 +1,111 @@
+
+
+
+body {
+    background-color: rgb(62, 188, 238);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ... ELEMENTS ...*/
+
+h1 {text-decoration:skyblue  }
+h3 {font-style:normal;
+    background-color: rgb(37, 105, 130);
+    width: max-content;
+    padding: 5px}
+    
+
+    /*... NAV ...*/
+
+    .navbar {background-color: rgb(186, 116, 187);
+    padding: 0.25em;}
+
+    .navbar ol {
+        display: flex;
+        list-style-type: none;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    .navbar a{
+        color: aliceblue;
+        text-decoration:wavy;
+        margin-right: 1em;
+        font-size: 24px;
+        box-shadow: 2px 1px  rgb(138, 168, 182)
+    }
+
+    .navbar a:hover {
+        color:bisque;
+    }
+
+    .navbar a:active {
+        background-color: rgb(49, 142, 163);
+        border-radius: 50%;
+    }
+
+    /*....IMAGE LIST INDEX...*/
+
+    #SpringInParis {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    #SpringInParis li {
+        text-align: center;
+        list-style-type: none;
+    }
+
+    /*...TABLE...*/
+
+    table {
+        background-color: beige;
+        border: 3px darkgreen
+    }
+    table caption {
+        font-size: 30px;
+        font-weight:400;
+        border: 3px solid rgb(42, 74, 30);
+        background-color: azure;
+    }
+
+    thead {
+        background-color: cornsilk;
+        color:rgb(186, 116, 187);
+        font-size: 24px;
+        
+    }
+    th, tr {
+        text-indent: 20px;
+    }
+
+    /*... FORM PAGE ...*/
+
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 30vw;
+        background-color: aquamarine;
+        padding: 10px;
+    
+    }
+
+    form label {
+        color:aliceblue;
+        font-weight: 600;
+        font-size: larger;
+        text-align: center;
+
+    }
+
+    form input {
+        margin-bottom: 1em;
+
+    }
+
+    form button {
+        padding: 5px;
+        letter-spacing: 3px;
+        font-size: 20px;
+        font-weight: 600;
+    }
